@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kider</title>
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Icon Font Stylesheet -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top px-4 px-lg-5 py-lg-0">
+        <div class="container-fluid">
+            <h3 class="m-0 "><i class="fa fa-book-reader me-3"></i>Kider</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav  d-flex justify-content-center ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Classes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <button class="btn">Join Us</button> -->
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <svg class="wave uppera" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,64L48,106.7C96,149,192,235,288,245.3C384,256,480,192,576,181.3C672,171,768,213,864,240C960,267,1056,277,1152,250.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    
+     <!-- slider Start -->
+     <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+                <img src="./img/carousel-1.jpg" class="d-block w-100" alt="...">
+                <div class="contentslider">
+                    <div class="carousel-caption">
+                        <h1>Make A Brighter Future For Your Child</h1>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt necessitatibus impedit odit nobis commodi!</p>
+                    </div>
+                    <div class="bttns">
+                        <button class="btn learnMore">Learn More</button>
+                        <button class="btn ourClasses">Our Classes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item position-relative">
+                <img src="./img/carousel-2.jpg" class="d-block w-100" alt="...">
+                <div class="contentslider">
+                    <div class="carousel-caption">
+                        <h1>The Best Kindergarten School For Your Child</h1>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt necessitatibus impedit odit nobis commodi!</p>
+                    </div>
+                    <div class="bttns">
+                        <button class="btn learnMore">Learn More</button>
+                        <button class="btn ourClasses">Our Classes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <div class="border">
+                <span class="visually-hidden">Previous</span>
+
+            </div>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!-- slider End -->
+    <svg class="wave down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1" d="M0,64L48,106.7C96,149,192,235,288,245.3C384,256,480,192,576,181.3C672,171,768,213,864,240C960,267,1056,277,1152,250.7C1248,224,1344,160,1392,128L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <!-- start facilities -->
+    <div class="facilities ">
+        <div class="mainCaption d-flex justify-content-center flex-column">
+            <h1 class=" maintext d-flex justify-content-center ">School Facilities</h1>
+             <p class="mainpar d-flex justify-content-center">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem 
+            kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.        </p>
+        </div>
+        <div class="container text-center">
+            <div class="row mt-4">
+              <div class="col fade-in">
+              <div class="fac-item one">
+                 <div class="d-flex justify-content-center ">
+                    <div class="fac-icon">
+                        <i class="fa fa-bus-alt fa-3x "></i>
+                    </div>
+                 </div>
+                <div class="factext">
+                    <h3>School Bus  </h3>
+                    <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit
+
+                    </p>
+                </div>
+
+              </div>
+              </div>
+              <div class="col fade-in">
+                <div class="fac-item two">
+                   <div class="d-flex justify-content-center ">
+                      <div class="fac-icon">
+                        <i class="fa fa-futbol fa-3x "></i>
+                    </div>
+                   </div>
+                  <div class="factext">
+                    <h3 class="  mb-3">Playground</h3>
+                    <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit
+  
+                      </p>
+                  </div>
+  
+                </div>
+                </div>
+                <div class="col fade-in">
+                    <div class="fac-item three">
+                       <div class="d-flex justify-content-center ">
+                          <div class="fac-icon">
+                            <i class="fa fa-home fa-3x "></i>
+                        </div>
+                       </div>
+                      <div class="factext">
+                        <h3 class=" mb-3">Healthy Canteen</h3>
+                        <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit
+      
+                          </p>
+                      </div>
+      
+                    </div>
+                    </div>
+                    <div class="col fade-in">
+                        <div class="fac-item four">
+                           <div class="d-flex justify-content-center ">
+                              <div class="fac-icon">
+                                <i class="fa fa-chalkboard-teacher fa-3x "></i>
+                              </div>
+                           </div>
+                          <div class="factext">
+                            <h3 class=" mb-3">Positive Learning</h3>
+                            <p>Eirmod sed ipsum dolor sit rebum magna erat lorem kasd vero ipsum sit
+          
+                              </p>
+                          </div>
+          
+                        </div>
+                        </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- end facilities -->
+     <!-- start about -->
+      <div class="about">
+        <div class="container text-center">
+            <div class="row g-5 align-items-center">
+              <div class="col left-part">
+                <div class="Caption d-flex justify-content-center flex-column">
+                    <h1 class=" maintext mb-4  ">Learn More About Our Work And Our Cultural Activities</h1>
+                     <p class="aboutpar d-flex justify-content-center"> 
+                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <p> Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor est vero nonumy magna.
+                    </p>
+                </div>
+                    <button class="btn readMore"> Read More</button>
+                
+              </div>
+              <div class="col right-part">
+              <div class="upperimg"><img class="img1" src="./img/about-1.jpg" alt=""></div>
+              <div class="down">
+                <div class="leftdownimg"><img  class="img2" src="./img/about-2.jpg" alt=""></div>
+              <div class="rightdownimg"><img  class="img3" src="./img/about-3.jpg" alt=""></div>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+     <!-- end about -->
+     <!-- start Become A Teacher -->
+     <div class="container text-center">
+        <div class="row Become">
+          <div class="col left-part">
+            <img src="./img/call-to-action.jpg" alt="">
+          </div>
+          <div class="col right-part">
+            <div class="maintext">Become A Teacher </div>
+            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
+                 sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                 <button class="btn">Get started Now</button>
+         </div>
+          
+        </div>
+      </div>
+     <!-- end Become A Teacher -->
+
+     <!-- start School Classes -->
+      <div class="classes">
+        <div class="mainCaption d-flex justify-content-center flex-column">
+            <h1 class=" maintext d-flex justify-content-center ">School Classes  </h1>
+             <p class="mainpar d-flex justify-content-center">Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem 
+            kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.        </p>
+        </div>
+     <div class="container text-center">
+        <div class="row ">
+          <div class="col class">
+            <img  class="mainimg" src="./img/classes-1.jpg" alt="">
+         <div class="details">
+            <div class="maintext">Art & Drawing  </div>
+            <div class="teacher d-flex">
+                <img class="userimg" src="./img/user.jpg" alt="">
+                <div class="name-teacher">
+                    <h6>Jhon Doe</h6>
+                    <p>Teacher</p>
+                </div>
+                <div class="salary justify-content-end">
+                    <p>99$</p>
+                </div>
+            </div>
+            <div class="atc d-flex">
+                <div class="age">
+                    <h6>Age:</h6>
+                    <p>3-5 Years</p>
+                </div>
+                <div class="time">
+                    <h6>Time:</h6>
+                    <p>9-10 AM</p>
+                </div>
+                <div class="capacity">
+                    <h6>Capacity:</h6>
+                    <p>30 Kid</p>
+                </div>
+            </div>
+         </div>
+       </div>
+       <div class="col class">
+        <img  class="mainimg" src="./img/classes-2.jpg" alt="">
+     <div class="details">
+        <div class="maintext">Color Management </div>
+        <div class="teacher d-flex">
+            <img class="userimg" src="./img/user.jpg" alt="">
+            <div class="name-teacher">
+                <h6>Jhon Doe</h6>
+                <p>Teacher</p>
+            </div>
+            <div class="salary justify-content-end">
+                <p>99$</p>
+            </div>
+        </div>
+        <div class="atc d-flex">
+            <div class="age">
+                <h6>Age:</h6>
+                <p>3-5 Years</p>
+            </div>
+            <div class="time">
+                <h6>Time:</h6>
+                <p>9-10 AM</p>
+            </div>
+            <div class="capacity">
+                <h6>Capacity:</h6>
+                <p>30 Kid</p>
+            </div>
+        </div>
+     </div>
+   </div>
+   <div class="col class">
+    <img  class="mainimg" src="./img/classes-3.jpg" alt="">
+ <div class="details">
+    <div class="maintext">Athletic & Dance </div>
+    <div class="teacher d-flex">
+        <img class="userimg" src="./img/user.jpg" alt="">
+        <div class="name-teacher">
+            <h6>Jhon Doe</h6>
+            <p>Teacher</p>
+        </div>
+        <div class="salary justify-content-end">
+            <p>99$</p>
+        </div>
+    </div>
+    <div class="atc d-flex">
+        <div class="age">
+            <h6>Age:</h6>
+            <p>3-5 Years</p>
+        </div>
+        <div class="time">
+            <h6>Time:</h6>
+            <p>9-10 AM</p>
+        </div>
+        <div class="capacity">
+            <h6>Capacity:</h6>
+            <p>30 Kid</p>
+        </div>
+    </div>
+ </div>
+</div>
+        </div>
+        <div class="row mt-4">
+            <div class="col class">
+                <img  class="mainimg" src="./img/classes-4.jpg" alt="">
+             <div class="details">
+                <div class="maintext">Language & Speaking </div>
+                <div class="teacher d-flex">
+                    <img class="userimg" src="./img/user.jpg" alt="">
+                    <div class="name-teacher">
+                        <h6>Jhon Doe</h6>
+                        <p>Teacher</p>
+                    </div>
+                    <div class="salary justify-content-end">
+                        <p>99$</p>
+                    </div>
+                </div>
+                <div class="atc d-flex">
+                    <div class="age">
+                        <h6>Age:</h6>
+                        <p>3-5 Years</p>
+                    </div>
+                    <div class="time">
+                        <h6>Time:</h6>
+                        <p>9-10 AM</p>
+                    </div>
+                    <div class="capacity">
+                        <h6>Capacity:</h6>
+                        <p>30 Kid</p>
+                    </div>
+                </div>
+             </div>
+           </div>
+           <div class="col class">
+            <img  class="mainimg" src="./img/classes-5.jpg" alt="">
+         <div class="details">
+            <div class="maintext">Religion & History  </div>
+            <div class="teacher d-flex">
+                <img class="userimg" src="./img/user.jpg" alt="">
+                <div class="name-teacher">
+                    <h6>Jhon Doe</h6>
+                    <p>Teacher</p>
+                </div>
+                <div class="salary justify-content-end">
+                    <p>99$</p>
+                </div>
+            </div>
+            <div class="atc d-flex">
+                <div class="age">
+                    <h6>Age:</h6>
+                    <p>3-5 Years</p>
+                </div>
+                <div class="time">
+                    <h6>Time:</h6>
+                    <p>9-10 AM</p>
+                </div>
+                <div class="capacity">
+                    <h6>Capacity:</h6>
+                    <p>30 Kid</p>
+                </div>
+            </div>
+         </div>
+       </div>
+       <div class="col class">
+        <img  class="mainimg" src="./img/classes-6.jpg" alt="">
+     <div class="details">
+        <div class="maintext">General Knowledge  </div>
+        <div class="teacher d-flex">
+            <img class="userimg" src="./img/user.jpg" alt="">
+            <div class="name-teacher">
+                <h6>Jhon Doe</h6>
+                <p>Teacher</p>
+            </div>
+            <div class="salary justify-content-end">
+                <p>99$</p>
+            </div>
+        </div>
+        <div class="atc d-flex">
+            <div class="age">
+                <h6>Age:</h6>
+                <p>3-5 Years</p>
+            </div>
+            <div class="time">
+                <h6>Time:</h6>
+                <p>9-10 AM</p>
+            </div>
+            <div class="capacity">
+                <h6>Capacity:</h6>
+                <p>30 Kid</p>
+            </div>
+        </div>
+     </div>
+   </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- end School Classes -->
+     <!-- start Make Appointment -->
+      <div class="appointment">
+        <div class="container text-center">
+            <div class="row  ">
+              <div class="col left-part">
+                <form action="">
+                    <div class="maintext">Make Appointment</div>
+                <div class="gaurdian  mb-4 d-flex">
+                    <input type="text"  class="form-control me-2" placeholder="Gaurdian Name">
+                    <input type="text"  class="form-control " placeholder="Gaurdian Email">
+                </div>
+                <div class="child mb-4  d-flex">
+                    <input type="text"  class="form-control me-2" placeholder="Child Name">
+                    <input type="text"  class="form-control" placeholder="Child Age">
+                </div>
+                <textarea class="input-area form-control" rows="4" cols="50" placeholder="Massage..."></textarea>
+                <button class="btn">Sumbit</button>
+                </form>
+            </div>
+              <div class="col right-part">
+                <img src="./img/appointment.jpg" alt="">
+              </div>
+              
+            </div>
+          </div>
+      </div>
+     <!-- end Make Appointment -->
+      <!-- Footer -->
+<footer class=" text-light pt-5 pb-4" >
+    <div class="container">
+        <div class="row">
+
+            <!-- Get In Touch -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <h5 class="text-uppercase fw-bold fontNerko">Get In Touch</h5>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Street, New York, USA</p>
+                <p><i class="fas fa-phone"></i> +012 345 67890</p>
+                <p><i class="fas fa-envelope"></i> mail@domain.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <h5 class="text-uppercase fw-bold fontNerko">Quick Links</h5>
+                <p><a href="#" class="text-light">About Us</a></p>
+                <p><a href="#" class="text-light">Contact Us</a></p>
+                <p><a href="#" class="text-light">Our Services</a></p>
+                <p><a href="#" class="text-light">Privacy Policy</a></p>
+                <p><a href="#" class="text-light">Terms & Conditions</a></p>
+            </div>
+
+            <!-- Photo Gallery -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <h5 class="text-uppercase fw-bold fontNerko">Photo Gallery</h5>
+                <div class="row g-2">
+                    <div class="col-4"><img src="./img/classes-1.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                    <div class="col-4"><img src="./img/classes-2.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                    <div class="col-4"><img src="./img/classes-3.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                    <div class="col-4"><img src="./img/classes-4.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                    <div class="col-4"><img src="./img/classes-5.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                    <div class="col-4"><img src="./img/classes-6.jpg" class="img-fluid rounded" alt="Gallery Image"></div>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                <h5 class="text-uppercase fw-bold fontNerko">Newsletter</h5>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Your email">
+                    <button class="btn signup" type="submit">Sign Up</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="javaScript.js"></script>
+
+</body>
+</html>
